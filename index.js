@@ -1,8 +1,19 @@
 const customExpress = require("./config/customExpress");
-const consign = require('consign');
-
-const app = customExpress();
+const conexao = require('./infraestrutura/conexao')
 
 
-app.listen(3000, () => console.log("O servidor está rodando na porta 3000!"));
+conexao.connect(erro =>{
+    if(erro){
+        console.log(erro);
+    }else{
+        console.log('Conectado com sucesso');
+
+        const app = customExpress();
+
+
+        app.listen(3000, () => console.log("O servidor está rodando na porta 3000!"));
+
+    }
+
+})
 
