@@ -3,7 +3,6 @@ const Atendimento = require('../models/atendimentos')
 
 module.exports = app =>{
     app.get("/atendimentos", (req, res) => {
-        console.log("Pegamos a rota principal")
         Atendimento.listar(res);
     })
 
