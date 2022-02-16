@@ -94,9 +94,23 @@ app.delete("/atendimentos/:id", (req, res) => {
     Atendimento.deleta(id, res)
 })
 ```
+
+## Screenshot - Exemplo
+
+Request GET no Postman passando parâmetros id 5
 ![image](https://user-images.githubusercontent.com/78318961/154263155-a0650ad2-14ba-4a63-b140-2b7e14b905d0.png)
 
+Retorno de objeto JSON
 ![image](https://user-images.githubusercontent.com/78318961/154263234-d061636e-38d1-46e7-ac58-8af11c93be55.png)
+
+## Quer clonar esse repositório?
+
+```sh
+git clone https://github.com/Gustavo-Seiti/API_NODE.git
+})
+```
+
+
 
 
 
