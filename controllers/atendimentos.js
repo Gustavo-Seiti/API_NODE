@@ -21,7 +21,7 @@ module.exports = app =>{
         Atendimento.adicionar(atendimento, res)
     })
 
-    app.patch("/atendimentos:id", (req, res) => {
+    app.patch("/atendimentos/:id", (req, res) => {
         const id = parseInt(req.params.id)
         const valores = req.body
 
