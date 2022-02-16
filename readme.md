@@ -94,6 +94,10 @@ app.delete("/atendimentos/:id", (req, res) => {
     Atendimento.deleta(id, res)
 })
 ```
+![image](https://user-images.githubusercontent.com/78318961/154263155-a0650ad2-14ba-4a63-b140-2b7e14b905d0.png)
+
+![image](https://user-images.githubusercontent.com/78318961/154263234-d061636e-38d1-46e7-ac58-8af11c93be55.png)
+
 
 
     
