@@ -3,8 +3,8 @@ const Atendimento = require('../models/atendimentos')
 
 module.exports = app =>{
     app.get("/atendimentos", (req, res) => {
-        res.send("Você ta no caminho certo")
-        //Atendimento.listar(res);
+       // res.send("Você ta no caminho certo")
+        Atendimento.listar(res);
     })
 
     app.get("/atendimentos/:id", (req, res) =>{
