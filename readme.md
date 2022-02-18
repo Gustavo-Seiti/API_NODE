@@ -4,6 +4,10 @@
 
 Esse projeto foi desenvolvido durante o Curso da Alura de Node.js. Se trata de uma API que agenda atendimentos e serviços em um PetShop.
 
+Se quiser testar a API, fizemos o deploy na plataforma Heroku.
+
+Endereço: https://api-rest-petshop.herokuapp.com/atendimentos
+
 
 ## Tecnologias
 
@@ -17,6 +21,8 @@ Nesse projeto utilizamos as seguintes tecnologias:
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) : Linguagem leve, interpretada e orientada a objetos;
 
 * [Mysql](https://www.mysql.com/) : Banco de dados relacional que utiliza SQL;
+
+* [Heroku](heroku.com) : Plataforma de nuvem para várias linguagens;
 
 
 ## Requisitos
